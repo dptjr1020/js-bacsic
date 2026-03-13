@@ -50,4 +50,4 @@ const result = num1 + num2;
 //결과 출력
 console.log(result);
 //1+1의 정답은 2입니다~!
-console.log(`${num1}+${num2}의 정답은 ${result}입니다~!`);
+console.log(`${num1}+${num2}의 정답은 ${result}입니다~!`);2
