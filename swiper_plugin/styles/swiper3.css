@@ -1,0 +1,110 @@
+#wrap {min-width:1200px;}
+#wrap header {
+    position: sticky; top: -50px; z-index: 999; left: 0;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05); text-align: center;
+}
+#wrap header,
+#wrap footer {
+    width: 100%; line-height: 100px; font-size: 2rem;
+    background: linear-gradient(90deg, #eee, #fff); color:#555;
+    text-align: center;
+}
+#wrap main {}
+#wrap main #hero_wrap {}
+#wrap main #hero_wrap .ssf_hero {height: 90vh;}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper {}
+#wrap main #hero_wrap .ssf_hero .prev {transform: scaleX(-1);}
+#wrap main #hero_wrap .ssf_hero .prev,
+#wrap main #hero_wrap .ssf_hero .next {
+    background-image: url(../images/arrow.png);
+    background-size: contain;
+}
+#wrap main #hero_wrap .ssf_hero .prev svg,
+#wrap main #hero_wrap .ssf_hero .next svg {display: none;}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .swiper-slide {
+    background-size: cover; background-position: center;
+}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .swiper-slide a {
+    display: flex; background: rgba(0,0,0,0.5);height: 100%;
+    flex-flow: column nowrap; justify-content: center; align-items: center;
+    text-align: center;
+}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .swiper-slide a p {line-height:1.5; color: #fff;}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .swiper-slide a h1 {
+    color: #fff; margin: 10px 0; font-size: 1.4rem; font-weight: 700;
+}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .swiper-slide a h1+p {}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .swiper-slide a h1,
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .swiper-slide a p {}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .slide1 {background-image: url(../images/convers_001.jpg);}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .slide2 {background-image: url(../images/convers_002.jpg);}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .slide3 {background-image: url(../images/convers_003.jpg);}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .slide4 {background-image: url(../images/convers_004.jpg);}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .slide5 {background-image: url(../images/convers_005.jpg);}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .slide6 {background-image: url(../images/convers_006.jpg);}
+/* ----------------------------brand bnr */
+#wrap main #brand_wrap {
+    padding:50px 0;text-align: center;
+}
+#wrap main #brand_wrap h1 {
+    font-size: 1.4rem; font-weight: 700;
+    margin: 50px 0;
+}
+#wrap main #brand_wrap .brand_container {
+    display: flex; gap: 40px; width: 1200px; margin: 0 auto;
+    height: 350px;
+}
+#wrap main #brand_wrap .brand_container > * {width: 50%;}
+#wrap main #brand_wrap .brand_container .brand_plan {
+    background-image: url(https://img.ssfshop.com/display/category/THM/A30/A16/contents/23409_372162_15_KOR_20260320140658.jpg);
+    background-size: cover; background-position: center;
+}
+#wrap main #brand_wrap .brand_container .brand_plan .brand_plan_txt {
+    background: rgba(0,0,0,0.2); 
+    display: flex; flex-flow: column; justify-content: center; align-items: center;
+    text-align: center;height: 100%;
+}
+#wrap main #brand_wrap .brand_container .brand_plan .brand_plan_txt p {font-weight: 700;}
+#wrap main #brand_wrap .brand_container .brand_plan .brand_plan_txt > h2 {
+    margin: 10px 0; line-height: 1.4; font-weight: 700; font-size: 1.2rem;
+}
+#wrap main #brand_wrap .brand_container .brand_plan .brand_plan_txt a {
+    font-size: 0.88rem;
+}
+#wrap main #brand_wrap .brand_container .brand_plan .brand_plan_txt p,
+#wrap main #brand_wrap .brand_container .brand_plan .brand_plan_txt > h2,
+#wrap main #brand_wrap .brand_container .brand_plan .brand_plan_txt a {
+    color: #fff;
+}
+#wrap main #brand_wrap .brand_container .brand_item {
+    position: relative; display: flex; align-items: center;
+}
+#wrap main #brand_wrap .brand_container .brand_item .brand_swip {width: 95%;}
+#wrap main #brand_wrap .brand_container .brand_item .brand_swip .swiper-wrapper {}
+#wrap main #brand_wrap .brand_container .brand_item .brand_swip .swiper-wrapper .swiper-slide {}
+#wrap main #brand_wrap .brand_container .brand_item .brand_swip .swiper-wrapper .swiper-slide .img_wrap {
+    position: relative; margin-bottom: 5px;
+}
+#wrap main #brand_wrap .brand_container .brand_item .brand_swip .swiper-wrapper .swiper-slide .img_wrap .item_pic {}
+#wrap main #brand_wrap .brand_container .brand_item .brand_swip .swiper-wrapper .swiper-slide .img_wrap .item_pic img {width: 100%;}
+#wrap main #brand_wrap .brand_container .brand_item .brand_swip .swiper-wrapper .swiper-slide .img_wrap .like_pic {
+    position: absolute; bottom: 15px; right:10px;
+}
+#wrap main #brand_wrap .brand_container .brand_item .brand_swip .swiper-wrapper .swiper-slide .img_wrap .like_pic img {width: 20px;}
+#wrap main #brand_wrap .brand_container .brand_item .brand_swip .swiper-wrapper .swiper-slide > a {text-align: left;}
+#wrap main #brand_wrap .brand_container .brand_item .brand_swip .swiper-wrapper .swiper-slide > a h2 {
+    margin: 10px 0;
+}
+#wrap main #brand_wrap .brand_container .brand_item .brand_swip .swiper-wrapper .swiper-slide > a .price {
+    font-weight: 600;
+}
+#wrap main #brand_wrap .brand_container .brand_item .brand_swip .swiper-wrapper .slide1 {}
+#wrap main #brand_wrap .brand_container .brand_item .brand_swip .swiper-wrapper .slide2 {}
+#wrap main #brand_wrap .brand_container .brand_item .brand_swip .swiper-wrapper .slide3 {}
+#wrap main #brand_wrap .brand_container .brand_item .brand_swip .swiper-wrapper .slide4 {}
+#wrap main #brand_wrap .brand_container .brand_item .brand_swip .swiper-wrapper .slide5 {}
+#wrap main #brand_wrap .brand_container .brand_item .brand_swip .swiper-wrapper .slide6 {}
+#wrap main #brand_wrap .brand_container .brand_item .prev {left: -30px;}
+#wrap main #brand_wrap .brand_container .brand_item .next {right: -30px;}
+#wrap main #brand_wrap .brand_container .brand_item .prev,
+#wrap main #brand_wrap .brand_container .brand_item .next {transform: scale(0.4);}
