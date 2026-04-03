@@ -1,0 +1,7 @@
+#googoo {display: flex; gap: 5px;}
+.dan {
+    margin: 10px; border:1px dotted #ccc;
+    width: max-content; padding: 20px;
+}
+.dan h1 {font-weight: 600; margin: 0 0 20px;}
+.dan .result {line-height: 2; letter-spacing: 0.06rem;}
